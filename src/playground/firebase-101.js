@@ -1,16 +1,3 @@
-import * as firebase from "firebase";
-
-const firebaseConfig = {
-  apiKey: "AIzaSyD2XsXAq93XAhexu9hL1AaTOA79xPv0d1M",
-  authDomain: "expensify-66d6f.firebaseapp.com",
-  databaseURL: "https://expensify-66d6f.firebaseio.com",
-  projectId: "expensify-66d6f",
-  storageBucket: "expensify-66d6f.appspot.com",
-  messagingSenderId: "924071237850",
-  appId: "1:924071237850:web:bf133eb380973f1e042de3",
-  measurementId: "G-G5PXCHP58C",
-};
-
 firebase.initializeApp(firebaseConfig);
 
 const database = firebase.database();
